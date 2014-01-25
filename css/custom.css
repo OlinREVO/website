@@ -1,15 +1,17 @@
 
 .nav {
+    position: fixed;
+    top: 0;
     width: 100%;
     height: 50px;
-    background-color: #024A68;
+    background-color: rgba(2, 74, 104, .8);
     padding-left: 30px;
     padding-right: 30px;
 }
 
 .nav-item {
     line-height: 50px;
-    vertical-align: center;
+    vertical-align: middle;
     color: #eee;
     font-weight: 300;
     font-size: 20px;
@@ -20,6 +22,30 @@
 
 #home {
     font-size: 30px;
+}
+
+#revo {
+    width: 100%;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+#main {
+    position: relative;
+    min-height: 400px;
+    background-image: url('http://p1.pichost.me/i/35/1579826.jpg'); 
+    z-index: -1;
+}
+
+.main-footer {
+    min-height: 70px;
+    text-align: center;
+    line-height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 .nav-item:visited {
@@ -40,4 +66,63 @@ a {
 
 .right {
     float: right;
+}
+
+.project-label {
+    padding: 10px;
+    font-weight: 300;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    color: #eee;
+}
+
+.acronym {
+    border-right: 2px solid black;
+    font-size: 30px;
+    text-align: right;
+}
+
+.full-description {
+    text-align: left !important;
+}
+
+.description {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    min-height: 200px;
+}
+
+.small-text {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.medium-text {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.large-text {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.centered {
+    margin-right: auto;
+    margin-left: auto;
 }
