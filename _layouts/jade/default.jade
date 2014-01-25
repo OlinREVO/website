@@ -7,7 +7,10 @@ html
     meta(name='viewport', content='width=device-width')
 
     //jquery
-    script(type='text/javascript', scr='/javascript/jquery.min.js')
+    script(type='text/javascript', src='/javascript/jquery.min.js')
+
+    //custom js
+    script(type='text/javascript' src='/javascript/default.js')
 
     // syntax highlighting CSS 
     link(rel='stylesheet', href='/css/simplegrid.css')
@@ -18,3 +21,9 @@ html
     link(rel='stylesheet', href='/css/main.css')
   body
     nav.nav
+        a.nav-item.left#home(href='/') REVO
+        span.right
+            a.nav-item(href='/projects') PROJECTS
+            a.nav-item(href='/sponsors') SPONSORS
+            a.nav-item(href='/team') TEAM
+            a.nav-item(href='/blog') BLOG

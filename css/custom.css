@@ -1,5 +1,43 @@
 
-
 .nav {
-    
+    width: 100%;
+    height: 50px;
+    background-color: #024A68;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-item {
+    line-height: 50px;
+    vertical-align: center;
+    color: #eee;
+    font-weight: 300;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#home {
+    font-size: 30px;
+}
+
+.nav-item:visited {
+    color: #eee;
+}
+
+.nav-item:hover {
+    color: #ccc;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
 }
