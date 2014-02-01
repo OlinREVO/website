@@ -154,10 +154,29 @@ a {
     margin-left: auto;
 }
 
-#arrow {
+.arrow {
     cursor: pointer;
 }
 
 img_wrapper {
     text-align: center;
+}
+
+.logo {
+    margin: 20px;   
+}
+
+.text-block {
+    max-width: 1000px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nomb {
+    margin-bottom: -20px;
+}
+
+.blue-text {
+    color: rgba(2, 74, 104, .8)
 }
