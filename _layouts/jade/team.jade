@@ -1,0 +1,49 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    title {{ page.title }}
+    meta(name='viewport', content='width=device-width')
+
+    //jquery
+    script(type='text/javascript', src='/javascript/jquery.min.js')
+
+    //onepage-scroll
+    script(type='text/javascript', src='/javascript/jquery.onepage-scroll.min.js')
+
+    //custom js
+    script(type='text/javascript' src='/javascript/default.js')
+
+    // syntax highlighting CSS 
+    link(rel='stylesheet', href='/css/onepage-scroll.css')
+    link(rel='stylesheet', href='/css/simplegrid.css')
+    link(rel='stylesheet', href='/css/syntax.css')
+    link(rel='stylesheet', href='/css/custom.css')
+    
+    // Custom CSS 
+    link(rel='stylesheet', href='/css/main.css')
+  body
+    div.main
+        section
+            nav.nav
+                a.nav-item.left#home(href='/') REVO
+                span.right
+                    a.nav-item(href='/about') ABOUT
+                    a.nav-item(href='/projects') PROJECTS
+                    a.nav-item(href='/team') TEAM
+                    a.nav-item(href='/blog') BLOG
+                    div.text-center
+            div.image-header
+                span
+                    img(src='/images/team/chassis.jpg')
+                    span.img-title Chassis
+                span
+                    img(src='/images/team/external.jpg')
+                    span.img-title External
+                span
+                    img(src='/images/team/powertrain.jpg')
+                    span.img-title Powertrain
+                span
+                    img(src='/images/team/sensing.jpg')
+                    span.img-title Sensing
