@@ -7,30 +7,30 @@ html
     meta(name='viewport', content='width=device-width')
 
     //jquery
-    script(type='text/javascript', src='/javascript/jquery.min.js')
+    script(type='text/javascript', src='{{site.url}}/javascript/jquery.min.js')
 
     //onepage-scroll
-    script(type='text/javascript', src='/javascript/jquery.onepage-scroll.min.js')
+    script(type='text/javascript', src='{{site.url}}/javascript/jquery.onepage-scroll.min.js')
 
     //custom js
-    script(type='text/javascript' src='/javascript/default.js')
+    script(type='text/javascript' src='{{site.url}}/javascript/default.js')
 
     // syntax highlighting CSS 
-    link(rel='stylesheet', href='/css/onepage-scroll.css')
-    link(rel='stylesheet', href='/css/simplegrid.css')
-    link(rel='stylesheet', href='/css/syntax.css')
-    link(rel='stylesheet', href='/css/custom.css')
+    link(rel='stylesheet', href='{{site.url}}/css/onepage-scroll.css')
+    link(rel='stylesheet', href='{{site.url}}/css/simplegrid.css')
+    link(rel='stylesheet', href='{{site.url}}/css/syntax.css')
+    link(rel='stylesheet', href='{{site.url}}/css/custom.css')
     
     // Custom CSS 
-    link(rel='stylesheet', href='/css/main.css')
+    link(rel='stylesheet', href='{{site.url}}/css/main.css')
   body
     div.main
         section
             nav.nav
-                a.nav-item.left#home(href='/') REVO
+                a.nav-item.left#home(href='{{site.url}}/') REVO
                 span.right
                     a.nav-item(href='http://olinrevo.dozuki.com') PROJECTS
-                    a.nav-item(href='/team') TEAM
+                    a.nav-item(href='{{site.url}}/team') TEAM
                     a.nav-item(href='http://olinrevo.tumblr.com') BLOG
 
             div#main
@@ -49,18 +49,18 @@ html
                         REVO is a student run team that provides education, awareness and experience to their members in the field of electric vehicles. The team explores and builds off existing concepts to create electric vehicles for learning as well as competition. Different sub-teams exist to serve the interests of our members: Chassis, Powertrain, Sensing and Internal.
             div.main-footer
                 div.medium-text. SPONSORS
-                img.arrow(src='/images/icons/arrow.png')
+                img.arrow(src='{{site.url}}/images/icons/arrow.png')
         section.blue-background
             div.text-center
-                img.logo(src='/images/sponsors/advanced_circuits.png')
-                img.logo(src='/images/sponsors/aerospace_robotics.png')
-                img.logo(src='/images/sponsors/gopro.png')
-                img.logo(src='/images/sponsors/hawaiian_host.png')
+                img.logo(src='{{site.url}}/images/sponsors/advanced_circuits.png')
+                img.logo(src='{{site.url}}/images/sponsors/aerospace_robotics.png')
+                img.logo(src='{{site.url}}/images/sponsors/gopro.png')
+                img.logo(src='{{site.url}}/images/sponsors/hawaiian_host.png')
             div.text-center
-                img.logo(src='/images/sponsors/manzanita.png')
-                img.logo(src='/images/sponsors/spooky.png')
-                img.logo(src='/images/sponsors/upverter.png')
-                img.logo(src='/images/sponsors/zero.png')
+                img.logo(src='{{site.url}}/images/sponsors/manzanita.png')
+                img.logo(src='{{site.url}}/images/sponsors/spooky.png')
+                img.logo(src='{{site.url}}/images/sponsors/upverter.png')
+                img.logo(src='{{site.url}}/images/sponsors/zero.png')
 
             div.text-center
                 div.medium-text.
@@ -70,7 +70,7 @@ html
 
             div.main-footer
                 div.medium-text. INTERESTED IN SPONSORING US?
-                img.arrow(src='/images/icons/arrow_white.png')
+                img.arrow(src='{{site.url}}/images/icons/arrow_white.png')
 
         section
             div.text-center
@@ -87,8 +87,8 @@ html
                 Let's get in touch: james.nee@students.olin.edu
             div.text-center
                 a(href='https://www.facebook.com/OlinREVO')
-                    img.pad.social(src='/images/icons/facebook.png')
+                    img.pad.social(src='{{site.url}}/images/icons/facebook.png')
                 a(href='https://twitter.com/OlinREVO')
-                    img.pad.social(src='/images/icons/twitter.png')           
+                    img.pad.social(src='{{site.url}}/images/icons/twitter.png')           
                 a(href='https://olinrevo.tumblr.com/')
-                    img.pad.social(src='/images/icons/tumblr.png')
+                    img.pad.social(src='{{site.url}}/images/icons/tumblr.png')
