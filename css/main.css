@@ -142,6 +142,11 @@ a:visited { color: #a0a; }
   border: 0;
 }
 
+.horizontal-padding {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 /*****************************************************************************/
 /*
 /* Posts

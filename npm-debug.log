@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'minimagick' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.20
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'minimagick', null ]
+6 verbose cache add name=undefined spec="minimagick" args=["minimagick",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'minimagick',
+7 verbose parsed url   path: 'minimagick',
+7 verbose parsed url   href: 'minimagick' }
+8 silly lockFile 40847cea-minimagick minimagick
+9 verbose lock minimagick /home/mmay/.npm/40847cea-minimagick.lock
+10 silly lockFile 40847cea-minimagick minimagick
+11 silly lockFile 40847cea-minimagick minimagick
+12 verbose addNamed [ 'minimagick', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 4e7d18e7-minimagick minimagick@
+15 verbose lock minimagick@ /home/mmay/.npm/4e7d18e7-minimagick.lock
+16 silly addNameRange { name: 'minimagick', range: '*', hasData: false }
+17 verbose url raw minimagick
+18 verbose url resolving [ 'https://registry.npmjs.org/', './minimagick' ]
+19 verbose url resolved https://registry.npmjs.org/minimagick
+20 info trying registry request attempt 1 at 17:04:57
+21 http GET https://registry.npmjs.org/minimagick
+22 http 404 https://registry.npmjs.org/minimagick
+23 silly registry.get cb [ 404,
+23 silly registry.get   { date: 'Fri, 14 Feb 2014 22:04:58 GMT',
+23 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'cache-control': 'max-age=0',
+23 silly registry.get     'content-length': '52',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '0',
+23 silly registry.get     'x-served-by': 'cache-v36-ASH',
+23 silly registry.get     'x-cache': 'MISS',
+23 silly registry.get     'x-cache-hits': '0',
+23 silly registry.get     'x-timer': 'S1392415497.936460018,VS0,VE85',
+23 silly registry.get     'keep-alive': 'timeout=10, max=50',
+23 silly registry.get     connection: 'Keep-Alive' } ]
+24 silly lockFile 4e7d18e7-minimagick minimagick@
+25 silly lockFile 4e7d18e7-minimagick minimagick@
+26 error 404 'minimagick' is not in the npm registry.
+26 error 404 You should bug the author to publish it
+26 error 404
+26 error 404 Note that you can also install from a
+26 error 404 tarball, folder, or http url, or git url.
+27 error System Linux 3.8.0-19-generic
+28 error command "/usr/bin/node" "/usr/bin/npm" "install" "minimagick"
+29 error cwd /home/mmay/Revo/web
+30 error node -v v0.10.20
+31 error npm -v 1.3.11
+32 error code E404
+33 verbose exit [ 1, true ]

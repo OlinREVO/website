@@ -26,6 +26,15 @@
     width: 100%;
 }
 
+#mission {
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+.team-image {
+    width: 100%;
+}
+
 .w25 {
     max-width: 25% !important;
 }
@@ -36,6 +45,22 @@
 
 .w75 {
     max-width: 75% !important;
+}
+
+.one-quarter {
+    width: 25%; 
+    max-width: 25%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.one-third {
+    width: 33.33%; 
+    max-width: 33.33%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
 }
 
 .border {
@@ -116,10 +141,6 @@ a {
     min-height: 200px;
 }
 
-.text-box {
-    font-size: 20px;
-}
-
 .small-text {
     font-size: 20px;
     font-weight: 300;
@@ -191,14 +212,15 @@ img_wrapper {
 }
 
 .img-title {
+    color: black;
     position: absolute;
-    margin-top: 325px;
+    bottom: 15px;
+    left: 0;
     z-index: 2;
     font-size: 25px;
     background-color: white;
-    margin-left: -300px;
     display: border-box;
-    border-left: 6px solid rgb(2, 74, 104);
+    /*border-left: 6px solid rgb(2, 74, 104);*/
     font-family: OpenSans;
     text-align: center;
     line-height: 50px;
@@ -206,6 +228,17 @@ img_wrapper {
     padding-left: 10px;
     padding-right: 10px;
     cursor: pointer;
+}
+
+.no-hover:hover {
+    color: black !important;
+    background-color: white !important;
+    cursor: default;
+}
+
+.blue-background {
+    background-color: rgba(2, 74, 104, .8); 
+    color: white;
 }
 
 .img-title:hover {
