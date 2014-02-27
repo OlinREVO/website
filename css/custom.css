@@ -70,7 +70,7 @@
 #main {
     position: relative;
     min-height: 400px;
-    background-image: url('/images/banner.jpg');
+    background-image: url('{{site.url}}/images/banner.jpg');
     background-size: cover; 
     z-index: -1;
 }
