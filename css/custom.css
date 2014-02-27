@@ -245,3 +245,10 @@ img_wrapper {
     background-color: rgb(2, 74, 104);
     color: white;
 }
+
+.person {
+    width: 16%;
+    margin: 2%;
+    border-radius: 1000px;
+    border: 5px solid #111;
+}

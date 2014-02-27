@@ -18,5 +18,12 @@ $(document).ready(function() {
                                         // you want the responsive fallback to be triggered. For example, set this to 600 and whenever 
                                         // the browser's width is less than 600, the fallback will kick in.
     });
-    
+
+    $('.person').mouseover(function() {
+        $(this).attr('src', $(this).attr('src').replace("1", "2"));
+    })
+    $('.person').mouseout(function() {
+        $(this).attr('src', $(this).attr('src').replace("2", "1"));
+    })
+
 });
